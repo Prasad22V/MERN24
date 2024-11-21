@@ -1,0 +1,25 @@
+* Example custom CSS */
+.header {
+  border: 1px solid gray;
+  background-color: #f1f1f1;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header a {
+  margin-right: 1.25rem;
+}
+
+.header button {
+  background-color: #ff4f4f;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #ff3333;
+}

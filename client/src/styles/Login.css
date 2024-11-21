@@ -1,0 +1,71 @@
+/* Unique styles for the Login component */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f3f4f6; /* Light gray background */
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.login-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #111827; /* Dark text color */
+}
+
+.login-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151; /* Dark gray text */
+  margin-bottom: 0.5rem;
+}
+
+.login-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db; /* Light border */
+  border-radius: 4px;
+  font-size: 0.875rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.login-input:focus {
+  border-color: #6366f1; /* Indigo border on focus */
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3); /* Focus ring */
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #6366f1; /* Indigo button */
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #4f46e5; /* Darker indigo on hover */
+}
+
+.login-button:disabled {
+  background-color: #9ca3af; /* Gray for disabled */
+  cursor: not-allowed;
+  opacity: 0.7;
+}

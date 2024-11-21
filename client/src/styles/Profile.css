@@ -1,0 +1,44 @@
+/* Unique styles for the Profile component */
+.profile-container {
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.profile-loading {
+    font-weight: 600;
+    color: #4b5563; /* Dark gray */
+    margin-bottom: 1rem;
+}
+
+.profile-card {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff; /* White background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.profile-card:hover {
+    transform: translateY(-4px); /* Hover effect */
+}
+
+.profile-content {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.profile-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1f2937; /* Dark text */
+    margin-bottom: 0.5rem;
+}
+
+.profile-text {
+    font-size: 1rem;
+    color: #4b5563; /* Gray text */
+    margin-bottom: 0.75rem;
+}
